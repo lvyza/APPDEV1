@@ -1,18 +1,19 @@
-import { useState } from 'react';
+import { useState } from "react";
 
 const userData = {
-  name: "Elmer Alvarado",
-  avatarUrl: "https://i.pravatar.cc/100", // sample avatar
-  bio: "Appdev1 instructor.",
+  name: "Luisa Jean T. Padillon",
+  avatarUrl: "https://github.com/lvyza.png", // sample avatar
+  bio: "“Continuous improvement is better than delayed perfection.” — Mark Twain",
   skills: ["React", "JavaScript", "HTML", "CSS"],
   isOnline: true,
-  lastUpdated: "2 hours ago",
+  lastUpdated: "1 minute ago",
 };
 
 // <UserProfileCard user={userData} />
 
 function UserProfileCard({ user }) {
   const [messageCount, setMessageCount] = useState(0);
+  const [isFavorited, setIsFavorited] = useState(false);
 
   function handleSendMessage() {
     setMessageCount(messageCount + 1);
@@ -21,11 +22,22 @@ function UserProfileCard({ user }) {
   function handleReset() {
     setMessageCount(0);
   }
+  function handleFavorite() {
+    setIsFavorited((prev) => !prev);
+  }
 
   return (
     <>
       <div className="profile-card">
-        <img src={user.avatarUrl} alt={user.name} />
+        <img
+          src={user.avatarUrl}
+          alt={user.name}
+          style={{
+            width: "100px",
+            height: "100px",
+            objectFit: "cover",
+          }}
+        />
 
         <h2>{user.name}</h2>
 
@@ -48,24 +60,25 @@ function UserProfileCard({ user }) {
           Messages sent: {messageCount}
         </div>
 
-        {user.isOnline ? (
-          <span>🟢 Online</span>
-        ) : (
-          <span>⚪ Offline</span>
-        )}
+        {user.isOnline ? <span>🟢 Online</span> : <span>⚪ Offline</span>}
 
         <br />
         <br />
 
         <button onClick={handleSendMessage}>Send Message</button>
         <button onClick={handleReset}>Reset</button>
+        {user.isOnline && (
+          <button onClick={handleFavorite}>
+            {isFavorited ? "★ Favorited" : "☆ Favorite"}
+          </button>
+        )}
       </div>
 
-      <p className="footer">
-        Card last updated: {user.lastUpdated}
-      </p>
+      <p className="footer">Card last updated: {user.lastUpdated}</p>
     </>
   );
 }
 
-export default UserProfileCard;
+export default function App() {
+  return <UserProfileCard user={userData} />;
+}
