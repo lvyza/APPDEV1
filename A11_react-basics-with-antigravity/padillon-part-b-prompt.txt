@@ -1,0 +1,1 @@
+Refine the existing design instead of replacing it. Keep the current dark music streaming aesthetic and green accents. Improve the footer by making it feel more like a modern music application footer. Add a minimal decorative mini-player style with visual playback controls and a progress bar without adding any actual functionality. Keep the design clean, modern, and elegant.
