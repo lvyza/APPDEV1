@@ -77,3 +77,19 @@ After running the program, explain:
 ### Reflection
 Natutunan ko po how array methods can either modify the original array or create a new one, and bakit yung .map() is useful for displaying lists in React.
 
+
+### Filename
+06_control_structures.js
+
+### Prompt
+Open only 06_control_structures.js.
+
+The current grade-checking gives an incorrect result.
+First, run the file and show the current output.
+Second, explain what is causing the incorrect result.
+Lastly, suggest the smallest change that can safely correct the problem.
+
+Do not edit the file until I approve the proposed fix.
+
+### Reflection
+Natutunan ko po how to trace an incorrect condition by checking the output first and identifying the smallest safe fix before changing the code.
