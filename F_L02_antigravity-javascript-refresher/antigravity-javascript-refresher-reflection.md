@@ -44,3 +44,21 @@ node 03_functions.js
 ### Reflection
 Natutunan ko po how different function types in JavaScript can be used for different purposes.
 
+
+### Filename
+04_objects.js
+
+### Prompt
+Open only 04_objects.js.
+
+Before making any code changes, explain why introduce() should use a regular function when it needs to access this.name.
+
+After the explanation, create an aboutMe object that contains:
+- name
+- age
+- course
+- introduce()
+
+### Reflection
+Natutunan ko po bakit yung regular functions are useful when accessing object properties through this.name.
+
