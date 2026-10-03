@@ -108,3 +108,19 @@ Briefly explain:
 
 ### Reflection
 Natutunan ko po how how a button event and setTimeout can be used to change webpage content after a short delay.
+
+
+### Filename
+08_essential_features.html
+
+### Prompt
+Open only 08_essential_features.js.
+Briefly explain:
+1. How map() transforms values.
+2. How destructuring gets object properties.
+3. How spread copies and adds values.
+4. Why these are useful in React.
+
+
+### Reflection
+Natutunan ko po how map(), destructuring, and spread simplify common tasks when working with React.
