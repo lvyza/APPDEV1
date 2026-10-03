@@ -93,3 +93,18 @@ Do not edit the file until I approve the proposed fix.
 
 ### Reflection
 Natutunan ko po how to trace an incorrect condition by checking the output first and identifying the smallest safe fix before changing the code.
+
+### Filename
+07_dom.html
+
+### Prompt
+Open only 07_dom.html. Do not edit yet.
+Briefly explain:
+1. What element the button targets.
+2. What event listener it uses.
+3. Why setTimeout delays the paragraph change.
+4. What I should click and observe in the browser.
+
+
+### Reflection
+Natutunan ko po how how a button event and setTimeout can be used to change webpage content after a short delay.
