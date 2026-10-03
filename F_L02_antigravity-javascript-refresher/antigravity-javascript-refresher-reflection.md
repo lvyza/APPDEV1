@@ -62,3 +62,18 @@ After the explanation, create an aboutMe object that contains:
 ### Reflection
 Natutunan ko po bakit yung regular functions are useful when accessing object properties through this.name.
 
+
+### Filename
+05_arrays.js
+
+### Prompt
+Open 05_arrays.js.
+  
+After running the program, explain:
+1. Which array operation changes the original array.
+2. Which operation creates and returns a separate array.
+3. Why using .map() is useful when displaying lists in React.
+
+### Reflection
+Natutunan ko po how array methods can either modify the original array or create a new one, and bakit yung .map() is useful for displaying lists in React.
+
