@@ -1,0 +1,29 @@
+//dom
+
+<body>
+
+    <h1>JavaScript DOM Practice</h1>
+
+    <button id="changeBackground">
+        Change Background
+    </button>
+
+    <p id="message">
+        Waiting for JavaScript...
+    </p>
+
+    <script>
+        const button = document.getElementById("changeBackground");
+        button.addEventListener("click", () => {
+            const newColor = prompt("Enter a background color:");
+            document.body.style.backgroundColor = newColor;
+        });
+
+        const message = document.getElementById("message");
+        setTimeout(() => {
+            message.textContent = "The message was updated after 2 seconds!";
+        }, 2000);
+    </script>
+
+</body>
+</html>
