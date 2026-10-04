@@ -152,3 +152,15 @@ Open 10_let_const.js.
 
 ### Reflection
 Natutunan ko po pano pumili ng proper variable declaration and review changes safely before applying them.
+
+
+### Filename
+11_arrow_functions.js
+
+### Prompt
+Open 11_arrow_functions.js.
+
+- Explain how arrow functions work and when they are useful.- Convert the required functions into arrow functions and run the file
+
+### Reflection
+Natutunan ko po how arrow functions can make JavaScript functions shorter and easier to write.
