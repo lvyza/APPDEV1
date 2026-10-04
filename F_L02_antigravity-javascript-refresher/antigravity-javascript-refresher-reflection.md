@@ -177,3 +177,16 @@ Open 12_destructuring.js.
 
 ### Reflection
 Natutunan ko po how destructuring makes it easier to get values from objects and arrays.
+
+
+### Filename
+13_spread_rest.js
+
+### Prompt
+Open 13_spread_rest.js
+
+- Explain the difference between spread and rest operators.
+- Complete the examples and run the file.
+
+### Reflection
+Natutunan ko po how spread can copy or combine values habang yung rest can collect multiple values.
