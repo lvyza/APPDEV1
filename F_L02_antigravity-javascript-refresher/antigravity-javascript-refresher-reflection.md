@@ -229,3 +229,16 @@ Open 16_modules_import.js.
 
 ### Reflection
 Natutunan ko po how imports are used to get functions and data from another JavaScript file.
+
+
+### Filename
+17_logical_operators.js
+
+### Prompt
+Open 17_logical_operators.js.
+
+- Complete the logical operator exercises using &&, ||, and !. 
+- Run the file and check the output of each condition.
+
+### Reflection
+Natutunan ko po kung pano yunh logical operators can be used to create conditions in JavaScript
