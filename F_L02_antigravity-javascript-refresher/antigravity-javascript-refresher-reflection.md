@@ -242,3 +242,16 @@ Open 17_logical_operators.js.
 
 ### Reflection
 Natutunan ko po kung pano yunh logical operators can be used to create conditions in JavaScript
+
+
+### Filename
+18_ternary_nullish.js
+
+### Prompt
+Open 18_ternary_nullish.js.
+
+- Complete the ternary and nullish coalescing exercises. 
+- Test the given values then check the difference between || and ??.
+
+### Reflection
+Natutunan ko po kung pano yung ternary at nullish operators can make simple conditions then yung fallback values easier to write.
