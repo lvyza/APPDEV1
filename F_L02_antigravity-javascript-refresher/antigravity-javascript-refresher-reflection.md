@@ -138,3 +138,17 @@ Open only 09_tricky_parts.js.
 
 ### Reflection
 Natutunan ko po how this behaves in different functions at kung pano yung reference copying differs from spread copying.
+
+
+### Filename
+10_let_const.js
+
+### Prompt
+Open 10_let_const.js.
+  
+- Explain when to use let and const and why var is avoided.
+- Find all var declarations in the refresher project and list whether each can safely become let or const. 
+- Suggest one improvement only
+
+### Reflection
+Natutunan ko po pano pumili ng proper variable declaration and review changes safely before applying them.
