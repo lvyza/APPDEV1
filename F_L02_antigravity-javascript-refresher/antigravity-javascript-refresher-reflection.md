@@ -217,3 +217,15 @@ Open 15_modules_export.js.
 ### Reflection
 Natutunan ko po how how exports allow code from one JavaScript file to be reused in another file.
 
+
+### Filename
+16_modules_import.js
+
+### Prompt
+Open 16_modules_import.js.
+
+- Import the function and data from 15_modules_export.js and run the file.
+- Check if both imported values work correctly.
+
+### Reflection
+Natutunan ko po how imports are used to get functions and data from another JavaScript file.
