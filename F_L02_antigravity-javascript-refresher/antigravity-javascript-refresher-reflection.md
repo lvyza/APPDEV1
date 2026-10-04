@@ -190,3 +190,17 @@ Open 13_spread_rest.js
 
 ### Reflection
 Natutunan ko po how spread can copy or combine values habang yung rest can collect multiple values.
+
+
+### Filename
+14_classes_inheritance.js
+
+### Prompt
+14_classes_inheritance.js
+
+- Explain classes, constructors, and inheritance in simple terms.
+- Complete the Person and Student examples and run the file.
+
+### Reflection
+Natutunan ko po how classes and inheritance can be used to organize related objects.
+
