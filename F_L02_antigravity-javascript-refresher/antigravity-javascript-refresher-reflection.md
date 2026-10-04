@@ -124,3 +124,17 @@ Briefly explain:
 
 ### Reflection
 Natutunan ko po how map(), destructuring, and spread simplify common tasks when working with React.
+
+
+### Filename
+09_tricky_parts.js
+
+### Prompt
+Open only 09_tricky_parts.js.
+  
+- Predict each console.log output in a table, then run the file with Node and compare the results.
+- Explain this.name in regular vs arrow methods and reference vs spread copying.
+- Add one example proving the difference.
+
+### Reflection
+Natutunan ko po how this behaves in different functions at kung pano yung reference copying differs from spread copying.
