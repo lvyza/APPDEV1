@@ -204,3 +204,16 @@ Natutunan ko po how spread can copy or combine values habang yung rest can colle
 ### Reflection
 Natutunan ko po how classes and inheritance can be used to organize related objects.
 
+
+### Filename
+15_modules_export.js
+
+### Prompt
+Open 15_modules_export.js.
+
+- Complete the required default and named exports. 
+- Make sure the exported function and data can be used by another JavaScript file.
+
+### Reflection
+Natutunan ko po how how exports allow code from one JavaScript file to be reused in another file.
+
