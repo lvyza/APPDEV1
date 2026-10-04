@@ -164,3 +164,16 @@ Open 11_arrow_functions.js.
 
 ### Reflection
 Natutunan ko po how arrow functions can make JavaScript functions shorter and easier to write.
+
+
+### Filename
+12_destructuring.js
+
+### Prompt
+Open 12_destructuring.js.
+
+- Explain object and array destructuring in simple terms.
+- Complete the destructuring examples and run the file.
+
+### Reflection
+Natutunan ko po how destructuring makes it easier to get values from objects and arrays.
