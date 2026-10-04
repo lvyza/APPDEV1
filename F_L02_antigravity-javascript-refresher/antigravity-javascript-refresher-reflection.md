@@ -255,3 +255,9 @@ Open 18_ternary_nullish.js.
 
 ### Reflection
 Natutunan ko po kung pano yung ternary at nullish operators can make simple conditions then yung fallback values easier to write.
+
+
+# agent-subagent-skill
+
+## Reflection
+Sa Part 2 po, nag-create ako ng own agent, subagent, and skill using the Antigravity CLI concepts na na-discuss sa lesson. Nag-create ako ng `luisa-js-coach` as my main agent to help review JavaScript exercises, then `output-checker` as my subagent para ma-check yung output of JavaScript files, and `js-output-review` as my reusable skill fopara naman sa pag-review ng JavaScript exercise results. I was able to run and verify my custom agent successfully. Kaso nga lang po, nong tinry ko i-run yung subagent and skill, sabi ni Antigravity ay na-reach na raw yung individual quota, so yung execution nila hindi mac-complete during the current session. Pero kahit man ganon, yung pag-create ng  mga components ay naka-help sakin to understand the different roles of an agent, subagent, and skill and how they can be organized for a JavaScript development workflow.
